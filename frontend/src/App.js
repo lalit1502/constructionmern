@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Signup from "./pages/Signup";
@@ -8,6 +7,9 @@ import Dashboard from "./pages/Dashboard";
 import Home from './pages/Home';
 import Nopage from './pages/Nopage';
 import Layout from './includes/Layout';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 
 function App() {
     return (
